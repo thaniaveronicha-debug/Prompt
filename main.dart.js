@@ -46622,7 +46622,7 @@ $1(a){var s,r,q,p,o,n,m,l,k,j,i,h=this,g=null,f=h.a
 f.i("pC<0>").a(a)
 s=a.c
 s.toString
-r=B.HR.EA(A.xL(s))
+r=B.HQ.EA(A.xL(s))
 s=h.c
 q=new A.aP(s,new A.Zc(a,f),A.a_(s).i("aP<1>")).ga5(0)
 p=s.length!==0
@@ -81773,7 +81773,7 @@ this.c.ad(t.Pu).f.uH(A.aq9(s,s,s,B.kb,s,B.O,s,A.eO(a,s,s,s,s,s,s),s,B.Gb,s,s,s,s
 M(a){var s=this,r=null
 if(s.e)return B.PE
 if(s.d)return B.OZ
-return A.avs(r,B.md,A.jy(A.avE(A.nq(A.asL(new A.c8(B.Gy,A.iw(A.c([B.HJ,B.cS,B.WZ,B.bN,B.X_,B.yM,A.ia(s.f,B.HQ,1,r,new A.adH(s),B.TP),B.yN,A.em(new A.wU(!1,s.ga1C(),r,r,r,A.apb(r,r,B.bI,r,r,r,8,r,r,B.k,r,r,r,r,new A.cm(A.f1(12),B.q),r,r,r,r,r),r,r,!1,r,!0,r,B.X3,r),55,1/0)],t.E),B.ae,B.af,B.cM),r)),B.y,B.Av,r,r,r,r,r),B.Gx),r,r))}}
+return A.avs(r,B.md,A.jy(A.avE(A.nq(A.asL(new A.c8(B.Gy,A.iw(A.c([B.HJ,B.cS,B.WZ,B.bN,B.X_,B.yM,A.ia(s.f,B.HP,1,r,new A.adH(s),B.TP),B.yN,A.em(new A.wU(!1,s.ga1C(),r,r,r,A.apb(r,r,B.bI,r,r,r,8,r,r,B.k,r,r,r,r,new A.cm(A.f1(12),B.q),r,r,r,r,r),r,r,!1,r,!0,r,B.X3,r),55,1/0)],t.E),B.ae,B.af,B.cM),r)),B.y,B.Av,r,r,r,r,r),B.Gx),r,r))}}
 A.adE.prototype={
 $0(){var s=this.a,r=A.eV(this.b.a.h(0,"isAuthorized"))
 s.d=r===!0
@@ -81828,18 +81828,18 @@ q=A.nq(k,B.y,k,B.Ax,k,k,k,k)
 p=A.avM(A.c([l.ls("\u2728 Surprise Me",B.H7,B.MM,l.gabb()),l.ls("\ud83c\udfac Pixar Style",B.Hi,B.MP,new A.aiY(l)),l.ls("\ud83c\udf0c Cyberpunk",B.Hw,B.eE,new A.aiZ(l)),l.ls("\ud83d\udcda Mood Cikgu",B.Hl,B.MS,new A.aj9(l)),l.ls("\ud83c\udf43 Ghibli",B.Ha,B.MO,new A.ajk(l)),l.ls("\ud83c\udf9e\ufe0f Vintage",B.H6,B.ML,new A.ajr(l)),l.ls("\ud83c\udfe2 Corporate",B.H5,B.MN,new A.ajs(l)),l.ls("\ud83d\udd25 Epic Movie",B.Hd,B.kb,new A.ajt(l))],j),!0,!0,!0)
 o=t.s
 p=A.c([l.mS(new A.Iw(new A.aaU(2,8,8,3.2,k),p,k,B.an,!1,k,k,B.Nd,!0,k,8,B.ap,k,k,B.O,B.aq,k),B.tU,B.H2,"Pilihan Pantas & Ajaib"),B.cS,l.mS(l.eO("Versi Output",l.x,A.c(["Poster","Banner","Komik","Infografik","OOTD"],o),new A.aju(l)),B.MJ,B.Hr,"Langkah 1: Versi Output")],j)
-if(l.x==="OOTD")B.b.P(p,A.c([B.cS,l.mS(A.iw(A.c([A.ia(k,B.HW,1,new A.ajv(l),k,k),B.bN,A.ia(k,B.HP,1,new A.ajw(l),k,k),B.bN,A.ia(k,B.HN,1,new A.aj_(l),k,k),B.bN,A.ia(k,B.HX,1,new A.aj0(l),k,k),B.bN,A.ia(k,B.HU,1,new A.aj1(l),k,k)],j),B.ae,B.af,B.b2),B.MH,B.Hm,"Konfigurasi OOTD (5 Elemen)")],j))
+if(l.x==="OOTD")B.b.P(p,A.c([B.cS,l.mS(A.iw(A.c([A.ia(k,B.HU,1,new A.ajv(l),k,k),B.bN,A.ia(k,B.HV,1,new A.ajw(l),k,k),B.bN,A.ia(k,B.HN,1,new A.aj_(l),k,k),B.bN,A.ia(k,B.HX,1,new A.aj0(l),k,k),B.bN,A.ia(k,B.HS,1,new A.aj1(l),k,k)],j),B.ae,B.af,B.b2),B.MH,B.Hm,"Konfigurasi OOTD (5 Elemen)")],j))
 p.push(B.cS)
 n=l.x
-if(n==="Komik")n="Tajuk Cerita"
-else n=n==="OOTD"?"Tema OOTD":"Tajuk Program"
-n=A.c([A.ia(k,A.apA(k,k,k,k,k,k,k,k,!0,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,n,!0,!0,!1,k,B.HC,k,k,k,k,k,k,k,k,k,k,k,k),1,new A.aj2(l),k,k),B.bN,A.ia(k,B.HT,1,new A.aj3(l),k,k)],j)
-m=l.x
-if(m!=="Komik"&&m!=="Infografik"&&m!=="OOTD")B.b.P(n,A.c([B.bN,A.oX(A.c([A.x1(A.ia(k,B.HO,1,new A.aj4(l),k,k)),B.yL,A.x1(A.ia(k,B.HS,1,new A.aj5(l),k,k))],j),B.ae,B.af,B.b2,0),B.bN,A.ia(k,B.HV,1,new A.aj6(l),k,k)],j))
-if(l.x==="Komik")B.b.P(n,A.c([B.bN,l.eO("Panel",l.fr,A.c(["1 Panel","3 Panel","4 Panel","6 Panel"],o),new A.aj7(l)),l.eO("Kotak Dialog",l.fx,A.c(["Rounded","Sharp Edge","Dotted","Retro"],o),new A.aj8(l))],j))
-n.push(B.bN)
-n.push(A.ia(k,A.apA(k,k,k,k,k,k,k,k,!0,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,l.x==="Infografik"?"Isi Kandungan":"Info Tambahan",!0,!0,!1,k,B.HD,k,k,k,k,k,k,k,k,k,k,k,k),3,new A.aja(l),k,k))
-p.push(l.mS(A.iw(n,B.ae,B.af,B.b2),B.MI,s,"Langkah 2: Kandungan & Teks"))
+if(n==="Komik")m="Tajuk Cerita"
+else m=n==="OOTD"?"Tema OOTD":"Tajuk Program"
+m=A.c([A.ia(k,A.apA(k,k,k,k,k,k,k,k,!0,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,n==="OOTD"?"Cth: Moden, Klasik, Alam sekitar, Korporat":k,k,k,k,k,k,k,k,k,m,!0,!0,!1,k,B.HC,k,k,k,k,k,k,k,k,k,k,k,k),1,new A.aj2(l),k,k),B.bN,A.ia(k,B.HT,1,new A.aj3(l),k,k)],j)
+n=l.x
+if(n!=="Komik"&&n!=="Infografik"&&n!=="OOTD")B.b.P(m,A.c([B.bN,A.oX(A.c([A.x1(A.ia(k,B.HO,1,new A.aj4(l),k,k)),B.yL,A.x1(A.ia(k,B.HR,1,new A.aj5(l),k,k))],j),B.ae,B.af,B.b2,0),B.bN,A.ia(k,B.HW,1,new A.aj6(l),k,k)],j))
+if(l.x==="Komik")B.b.P(m,A.c([B.bN,l.eO("Panel",l.fr,A.c(["1 Panel","3 Panel","4 Panel","6 Panel"],o),new A.aj7(l)),l.eO("Kotak Dialog",l.fx,A.c(["Rounded","Sharp Edge","Dotted","Retro"],o),new A.aj8(l))],j))
+m.push(B.bN)
+m.push(A.ia(k,A.apA(k,k,k,k,k,k,k,k,!0,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,l.x==="Infografik"?"Isi Kandungan":"Info Tambahan",!0,!0,!1,k,B.HD,k,k,k,k,k,k,k,k,k,k,k,k),3,new A.aja(l),k,k))
+p.push(l.mS(A.iw(m,B.ae,B.af,B.b2),B.MI,s,"Langkah 2: Kandungan & Teks"))
 p.push(B.cS)
 p.push(l.mS(A.iw(A.c([l.eO("Jenis Imej",l.ch,A.c(["Foto Realistik","Ilustrasi Digital","3D Render","Vektor"],o),new A.ajb(l)),l.eO("Gaya Design",l.at,l.ok,new A.ajc(l)),l.eO("Cahaya",l.ax,l.p1,new A.ajd(l)),l.eO("Warna",l.dy,l.p2,new A.aje(l)),l.eO("Lensa",l.ay,A.c(["Wide Angle","Bokeh","Macro","Fisheye"],o),new A.ajf(l))],j),B.ae,B.af,B.b2),B.MG,B.Hs,"Langkah 3: Visual"))
 p.push(B.cS)
@@ -85850,23 +85850,23 @@ B.HN=new A.eC(null,null,null,"3. Persekitaran",null,null,null,null,null,null,"Co
 B.Hx=new A.bH(984763,"MaterialIcons",!1)
 B.HA=new A.eB(B.Hx,null,null,null,null)
 B.HO=new A.eC(null,null,null,"Tarikh",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,B.HA,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
-B.HP=new A.eC(null,null,null,"2. Aksi",null,null,null,null,null,null,"Contoh: Memegang telefon pintar, gembira",null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
 B.Hv=new A.bH(984363,"MaterialIcons",!1)
 B.HH=new A.eB(B.Hv,null,B.bI,null,null)
-B.HQ=new A.eC(null,null,null,"Kunci Lesen",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,B.HH,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
-B.HR=new A.eC(null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
+B.HP=new A.eC(null,null,null,"Kunci Lesen",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,B.HH,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
+B.HQ=new A.eC(null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
 B.Hk=new A.bH(58710,"MaterialIcons",!1)
 B.HI=new A.eB(B.Hk,null,null,null,null)
-B.HS=new A.eC(null,null,null,"Masa",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,B.HI,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
+B.HR=new A.eC(null,null,null,"Masa",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,B.HI,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
+B.HS=new A.eC(null,null,null,"5. Pencahayaan",null,null,null,null,null,null,"Cth: Cahaya matahari waktu senja",null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
 B.Hu=new A.bH(983582,"MaterialIcons",!1)
 B.HF=new A.eB(B.Hu,null,null,null,null)
 B.HT=new A.eC(null,null,null,"Ucapan / Teks pada Imej",null,null,null,null,null,null,"Teks yang akan ditaip terus pada gambar",null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,B.HF,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
-B.HU=new A.eC(null,null,null,"5. Pencahayaan",null,null,null,null,null,null,"Contoh: Cahaya matahari waktu senja",null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
+B.HU=new A.eC(null,null,null,"1. Subjek",null,null,null,null,null,null,"Cth: Seorang wanita Melayu bertudung",null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
+B.HV=new A.eC(null,null,null,"2. Aksi",null,null,null,null,null,null,"Cth: Memegang telefon pintar, gembira",null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
 B.He=new A.bH(58283,"MaterialIcons",!1)
 B.HK=new A.eB(B.He,null,null,null,null)
-B.HV=new A.eC(null,null,null,"Tempat",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,B.HK,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
-B.HW=new A.eC(null,null,null,"1. Subjek",null,null,null,null,null,null,"Contoh: Seorang usahawan wanita Melayu",null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
-B.HX=new A.eC(null,null,null,"4. Gaya",null,null,null,null,null,null,"Contoh: Foto realistik, kualiti 4K",null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
+B.HW=new A.eC(null,null,null,"Tempat",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,B.HK,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
+B.HX=new A.eC(null,null,null,"4. Gaya",null,null,null,null,null,null,"Cth: sedang menaiki motosikal",null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
 B.HZ=new A.di(0.25,0.5,B.a7)
 B.NK=new A.h(0.05,0)
 B.NL=new A.h(0.133333,0.06)
