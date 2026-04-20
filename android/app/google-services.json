@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "407092753061",
+    "project_id": "prompt-pro-9f9fd",
+    "storage_bucket": "prompt-pro-9f9fd.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:407092753061:android:781ecbd6fdfde4ccef134c",
+        "android_client_info": {
+          "package_name": "com.example.prompt_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAk3gug--foqD6TDTT1kxIwQl8GVY0LruA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
