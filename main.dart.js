@@ -81798,26 +81798,28 @@ $1(a){return this.a.kn()},
 $S:16}
 A.z5.prototype={
 ai(){var s=t.s
-return new A.Dn(A.c(["Pelajar (Rendah/Tadika)","Pelajar (Menengah/U)","Guru / Pensyarah / Pendidik","Doktor / Jururawat / Petugas Kesihatan","Polis / Tentera / Bomba / Penyelamat","Pekerja Pejabat / Eksekutif / Korporat","Usahawan / Peniaga / Penjaja","Atlet / Ahli Sukan / Ahli Gim","Saintis / Penyelidik / Jurutera","Petani / Nelayan / Pekebun / Buruh","Kanak-kanak / Bayi","Warga Emas / Atuk / Nenek","Ibu Bapa / Suri Rumah","Karakter Fantasi / Legend / Adiwira","Tiada Watak"],s),A.c(["Gaya Epik","Komedi & Humor","Aksi & Pengembaraan","Sci-Fi Futuristik","Dokumentari & Fakta","Romantik","Filem Realistik","Poster Aksi","Poster 3D","Cute 3D Pixar","Kartun"],s),A.c(["Soft Studio Light","Golden Hour (Senja)","Neon Glow (Cyberpunk)","Kesan Kabus / Habuk","Cahaya Tajam (Rim Lighting)","Cinematic Shadow"],s),A.c(["Vibrant / Bold","Pastel Lembut","Monokrom","Earth Tones","Luxury Gold & Black"],s),A.c(["Modern Sans Serif","Elegant Serif","Bold Display","Handwritten","Calligraphy","Cyberpunk Font","Chalkboard Style"],s),A.c(["Casual","Pakaian Perayaan","Pakaian Tradisional","T-Shirt","Jersey","OOTD Trend","Bertudung Shawl","Bertudung Bawal","Style Kampung","Style Bandar","Style Pejabat","Pakaian Ikut Pekerjaan","Pakaian Sekolah"],s))}}
+return new A.Dn(A.c(["Pelajar (Rendah/Tadika)","Pelajar (Menengah/U)","Guru / Pensyarah / Pendidik","Doktor / Jururawat / Petugas Kesihatan","Polis / Tentera / Bomba / Penyelamat","Pekerja Pejabat / Eksekutif / Korporat","Usahawan / Peniaga / Penjaja","Atlet / Ahli Sukan / Ahli Gim","Saintis / Penyelidik / Jurutera","Petani / Nelayan / Pekebun / Buruh","Kanak-kanak / Bayi","Warga Emas / Atuk / Nenek","Ibu Bapa / Suri Rumah","Karakter Fantasi / Legend / Adiwira","Tiada Watak"],s),A.c(["Gaya Epik","Komedi & Humor","Aksi & Pengembaraan","Sci-Fi Futuristik","Dokumentari & Fakta","Romantik","Filem Realistik","Poster Aksi","Poster 3D","Cute 3D Pixar","Kartun","Retro","Minimalis"],s),A.c(["Soft Studio Light","Golden Hour (Senja)","Neon Glow (Cyberpunk)","Kesan Kabus / Habuk","Cahaya Tajam (Rim Lighting)","Cinematic Shadow"],s),A.c(["Vibrant / Bold","Pastel Lembut","Monokrom","Earth Tones","Luxury Gold & Black"],s),A.c(["Modern Sans Serif","Elegant Serif","Bold Display","Handwritten","Calligraphy","Cyberpunk Font","Chalkboard Style"],s),A.c(["Casual","Pakaian Perayaan","Pakaian Tradisional","T-Shirt","Jersey","OOTD Trend","Bertudung Shawl","Bertudung Bawal","Style Kampung","Style Bandar","Style Pejabat","Pakaian Ikut Pekerjaan","Pakaian Sekolah"],s))}}
 A.Dn.prototype={
 mR(a){var s=null
 this.Z(new A.air(this,a))
 this.c.ad(t.Pu).f.uH(A.aq9(s,s,s,s,s,B.O,s,A.eO("Tema "+a+" diaplikasikan! \u2728",s,s,s,s,s,s),s,B.eg,s,s,s,s,s,s,s,s,s,s))},
 abc(){this.Z(new A.ait(this,B.iz))
 this.c.ad(t.Pu).f.uH(B.RM)},
-I9(){var s,r,q,p,o,n=this,m=n.x,l=m==="Banner"
-if(l)s="Landskap Lebar (16:9)"
-else s=m==="Infografik"?"Potret Panjang (9:16)":"Potret Sosial Media (4:5)"
-if(l)r="FORMAT BANNER:\n- Fokus ruang kosong tengah untuk teks.\n- Grafik di sisi.\n- Tajuk: "+n.d+"\n- Tarikh: "+n.e+"\n- Masa: "+n.f+"\n- Tempat: "+n.r
-else if(m==="Komik")r="FORMAT KOMIK:\n- Struktur: "+n.fr+"\n- Gaya Kotak Dialog: "+n.fx+"\n- Tajuk Cerita: "+n.d
-else if(m==="Infografik")r="FORMAT INFOGRAFIK:\n- Susunan sistematik atas ke bawah.\n- Gunakan ikon/simbol.\n- Topik: "+n.d+"\n- Isi Kandungan: "+n.w
-else if(m==="OOTD"){l=n.k3
-q=l.length!==0?'Sila taipkan teks berikut pada imej dengan gaya tipografi yang cantik: "'+l+'".':"JANGAN masukkan sebarang teks, label, atau tulisan dalam imej. Kosongkan daripada sebarang teks."
-r="PENERANGAN VISUAL OOTD: "+n.fy+" sedang "+n.go+" di "+n.id+". Gaya visual adalah "+n.k1+" dengan pencahayaan "+n.k2+". "+q}else r="FORMAT POSTER:\n- Tajuk: "+n.d+"\n- Tarikh: "+n.e+"\n- Masa: "+n.f+"\n- Tempat: "+n.r
-if(m==="Komik"&&n.at==="Komedi & Humor")p="Sila hasilkan visual komik yang lucu dan menghiburkan."
-else p=m==="OOTD"?"Sila hasilkan visual OOTD yang estetik dan trendy.":"Sila hasilkan visual "+m+" bergaya "+n.at+" yang profesional."
-o=m==="OOTD"&&n.k3.length===0?"PENTING: JANGAN MASUKKAN SEBARANG TEKS PADA IMEJ. BIARKAN IMEJ BERSIH TANPA TULISAN.":"Pastikan maklumat teks dipaparkan dengan jelas dan estetik."
-return"RULES: Standard DBP (Bahasa Melayu). Tiada Inggeris/Indonesia. Orientasi: "+s+".\nRUJUKAN: Imej muat naik 100% (jika ada). Persamaan muka & struktur asal. Senyuman lembut.\n\nVISUAL & LAYOUT: "+n.ch+" | "+m+". "+r+"\nWATAK: "+n.z+" | Etnik: "+n.Q+" | Gaya: "+n.as+" | Pakaian: "+n.CW+".\nARTISTIC: Gaya: "+n.at+" | Cahaya: "+n.ax+" | Lensa: "+n.ay+" | Warna: "+n.dy+" | Layout: "+n.cy+" | Font: "+n.db+".\n\n"+p+" "+o},
+I9(){var s,r,q,p,o,n,m=this,l=m.x,k=l==="Banner"
+if(k)s="Landskap Lebar (16:9)"
+else s=l==="Infografik"?"Potret Panjang (9:16)":"Potret Sosial Media (4:5)"
+r="RUJUKAN: Imej muat naik 100% (jika ada). Persamaan muka & struktur asal. Senyuman lembut."
+if(k)q="FORMAT BANNER:\n- Fokus ruang kosong tengah untuk teks.\n- Grafik di sisi.\n- Tajuk: "+m.d+"\n- Tarikh: "+m.e+"\n- Masa: "+m.f+"\n- Tempat: "+m.r
+else if(l==="Komik")q="FORMAT KOMIK:\n- Struktur: "+m.fr+"\n- Gaya Kotak Dialog: "+m.fx+"\n- Tajuk Cerita: "+m.d
+else if(l==="Infografik")q="FORMAT INFOGRAFIK:\n- Susunan sistematik atas ke bawah.\n- Gunakan ikon/simbol.\n- Topik: "+m.d+"\n- Isi Kandungan: "+m.w
+else if(l==="OOTD"){k=m.k3
+p=k.length!==0?'Sila taipkan teks berikut pada imej dengan gaya tipografi yang cantik: "'+k+'".':"JANGAN masukkan sebarang teks, label, atau tulisan dalam imej. Kosongkan daripada sebarang teks."
+q="PENERANGAN VISUAL OOTD: "+m.fy+" sedang "+m.go+" di "+m.id+". Gaya visual adalah "+m.k1+" dengan pencahayaan "+m.k2+". "+p
+r="RUJUKAN OOTD: Jika ada gambar dilampirkan, Gunakan imej asal sebagai asas utama. Kekalkan wajah, struktur muka, mata, hidung, mulut dan ekspresi 100% tanpa sebarang perubahan. Jangan ubah identiti wajah walaupun sedikit."}else q="FORMAT POSTER:\n- Tajuk: "+m.d+"\n- Tarikh: "+m.e+"\n- Masa: "+m.f+"\n- Tempat: "+m.r
+if(l==="Komik"&&m.at==="Komedi & Humor")o="Sila hasilkan visual komik yang lucu dan menghiburkan."
+else o=l==="OOTD"?"Sila hasilkan visual OOTD yang estetik dan trendy.":"Sila hasilkan visual "+l+" bergaya "+m.at+" yang profesional."
+n=l==="OOTD"&&m.k3.length===0?"PENTING: JANGAN MASUKKAN SEBARANG TEKS PADA IMEJ. BIARKAN IMEJ BERSIH TANPA TULISAN.":"Pastikan maklumat teks dipaparkan dengan jelas dan estetik."
+return"RULES: Standard DBP (Bahasa Melayu). Tiada Inggeris/Indonesia. Orientasi: "+s+".\n"+r+"\n\nVISUAL & LAYOUT: "+m.ch+" | "+l+". "+q+"\nWATAK: "+m.z+" | Etnik: "+m.Q+" | Gaya: "+m.as+" | Pakaian: "+m.CW+".\nARTISTIC: Gaya: "+m.at+" | Cahaya: "+m.ax+" | Lensa: "+m.ay+" | Warna: "+m.dy+" | Layout: "+m.cy+" | Font: "+m.db+".\n\n"+o+" "+n},
 M(a){var s,r,q,p,o,n,m,l=this,k=null,j=l.x
 if(j==="Komik")s=B.H3
 else if(j==="Infografik")s=B.H4
@@ -81828,24 +81830,21 @@ q=A.nq(k,B.y,k,B.Ax,k,k,k,k)
 p=A.avM(A.c([l.ls("\u2728 Surprise Me",B.H7,B.MM,l.gabb()),l.ls("\ud83c\udfac Pixar Style",B.Hi,B.MP,new A.aiY(l)),l.ls("\ud83c\udf0c Cyberpunk",B.Hw,B.eE,new A.aiZ(l)),l.ls("\ud83d\udcda Mood Cikgu",B.Hl,B.MS,new A.aj9(l)),l.ls("\ud83c\udf43 Ghibli",B.Ha,B.MO,new A.ajk(l)),l.ls("\ud83c\udf9e\ufe0f Vintage",B.H6,B.ML,new A.ajr(l)),l.ls("\ud83c\udfe2 Corporate",B.H5,B.MN,new A.ajs(l)),l.ls("\ud83d\udd25 Epic Movie",B.Hd,B.kb,new A.ajt(l))],j),!0,!0,!0)
 o=t.s
 p=A.c([l.mS(new A.Iw(new A.aaU(2,8,8,3.2,k),p,k,B.an,!1,k,k,B.Nd,!0,k,8,B.ap,k,k,B.O,B.aq,k),B.tU,B.H2,"Pilihan Pantas & Ajaib"),B.cS,l.mS(l.eO("Versi Output",l.x,A.c(["Poster","Banner","Komik","Infografik","OOTD"],o),new A.aju(l)),B.MJ,B.Hr,"Langkah 1: Versi Output")],j)
-if(l.x==="OOTD")B.b.P(p,A.c([B.cS,l.mS(A.iw(A.c([A.ia(k,B.HU,1,new A.ajv(l),k,k),B.bN,A.ia(k,B.HV,1,new A.ajw(l),k,k),B.bN,A.ia(k,B.HN,1,new A.aj_(l),k,k),B.bN,A.ia(k,B.HX,1,new A.aj0(l),k,k),B.bN,A.ia(k,B.HS,1,new A.aj1(l),k,k)],j),B.ae,B.af,B.b2),B.MH,B.Hm,"Konfigurasi OOTD (5 Elemen)")],j))
+if(l.x==="OOTD")B.b.P(p,A.c([B.cS,l.mS(A.iw(A.c([A.ia(k,B.HW,1,new A.ajv(l),k,k),B.bN,A.ia(k,B.HO,1,new A.ajw(l),k,k),B.bN,A.ia(k,B.HV,1,new A.aj_(l),k,k),B.bN,A.ia(k,B.HX,1,new A.aj0(l),k,k),B.bN,A.ia(k,B.HS,1,new A.aj1(l),k,k)],j),B.ae,B.af,B.b2),B.MH,B.Hm,"Konfigurasi OOTD (5 Elemen)")],j))
 p.push(B.cS)
 n=l.x
 if(n==="Komik")m="Tajuk Cerita"
 else m=n==="OOTD"?"Tema OOTD":"Tajuk Program"
 m=A.c([A.ia(k,A.apA(k,k,k,k,k,k,k,k,!0,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,n==="OOTD"?"Cth: Moden, Klasik, Alam sekitar, Korporat":k,k,k,k,k,k,k,k,k,m,!0,!0,!1,k,B.HC,k,k,k,k,k,k,k,k,k,k,k,k),1,new A.aj2(l),k,k),B.bN,A.ia(k,B.HT,1,new A.aj3(l),k,k)],j)
 n=l.x
-if(n!=="Komik"&&n!=="Infografik"&&n!=="OOTD")B.b.P(m,A.c([B.bN,A.oX(A.c([A.x1(A.ia(k,B.HO,1,new A.aj4(l),k,k)),B.yL,A.x1(A.ia(k,B.HR,1,new A.aj5(l),k,k))],j),B.ae,B.af,B.b2,0),B.bN,A.ia(k,B.HW,1,new A.aj6(l),k,k)],j))
+if(n!=="Komik"&&n!=="Infografik"&&n!=="OOTD")B.b.P(m,A.c([B.bN,A.oX(A.c([A.x1(A.ia(k,B.HN,1,new A.aj4(l),k,k)),B.yL,A.x1(A.ia(k,B.HR,1,new A.aj5(l),k,k))],j),B.ae,B.af,B.b2,0),B.bN,A.ia(k,B.HU,1,new A.aj6(l),k,k)],j))
 if(l.x==="Komik")B.b.P(m,A.c([B.bN,l.eO("Panel",l.fr,A.c(["1 Panel","3 Panel","4 Panel","6 Panel"],o),new A.aj7(l)),l.eO("Kotak Dialog",l.fx,A.c(["Rounded","Sharp Edge","Dotted","Retro"],o),new A.aj8(l))],j))
 m.push(B.bN)
 m.push(A.ia(k,A.apA(k,k,k,k,k,k,k,k,!0,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,l.x==="Infografik"?"Isi Kandungan":"Info Tambahan",!0,!0,!1,k,B.HD,k,k,k,k,k,k,k,k,k,k,k,k),3,new A.aja(l),k,k))
 p.push(l.mS(A.iw(m,B.ae,B.af,B.b2),B.MI,s,"Langkah 2: Kandungan & Teks"))
 p.push(B.cS)
 p.push(l.mS(A.iw(A.c([l.eO("Jenis Imej",l.ch,A.c(["Foto Realistik","Ilustrasi Digital","3D Render","Vektor"],o),new A.ajb(l)),l.eO("Gaya Design",l.at,l.ok,new A.ajc(l)),l.eO("Cahaya",l.ax,l.p1,new A.ajd(l)),l.eO("Warna",l.dy,l.p2,new A.aje(l)),l.eO("Lensa",l.ay,A.c(["Wide Angle","Bokeh","Macro","Fisheye"],o),new A.ajf(l))],j),B.ae,B.af,B.b2),B.MG,B.Hs,"Langkah 3: Visual"))
-p.push(B.cS)
-p.push(l.mS(A.iw(A.c([l.eO("Watak Utama",l.z,l.k4,new A.ajg(l)),l.eO("Etnik",l.Q,A.c(["Melayu","Cina","India","Kadazan","Iban","Kaukasia"],o),new A.ajh(l)),l.eO("Anime",l.as,A.c(["Tiada","Shonen","Shojo","Seinen","Chibi","90s Retro"],o),new A.aji(l)),l.eO("Pakaian",l.CW,l.p4,new A.ajj(l))],j),B.ae,B.af,B.b2),B.MF,B.Hb,"Langkah 4: Watak"))
-p.push(B.cS)
-p.push(l.mS(A.iw(A.c([l.eO("Font",l.db,l.p3,new A.ajl(l)),l.eO("Bahasa",l.cx,A.c(["Formal DBP","Santai","Puitis","Informatif"],o),new A.ajm(l)),l.eO("Layout",l.cy,A.c(["Minimalis","Padat","Fokus Watak","Tipografi"],o),new A.ajn(l)),l.eO("Viral",l.dx,A.c(["Kontras Tinggi","Hook Headline","Trending","Bold"],o),new A.ajo(l)),l.eO("Sasaran",l.y,A.c(["Semua Pelajar","Guru","Ibu Bapa","Kanak-kanak","Awam"],o),new A.ajp(l))],j),B.ae,B.af,B.b2),B.tU,B.Hq,"Langkah 5: Tipografi"))
+if(l.x!=="OOTD")B.b.P(p,A.c([B.cS,l.mS(A.iw(A.c([l.eO("Watak Utama",l.z,l.k4,new A.ajg(l)),l.eO("Etnik",l.Q,A.c(["Melayu","Cina","India","Kadazan","Iban","Kaukasia"],o),new A.ajh(l)),l.eO("Anime",l.as,A.c(["Tiada","Shonen","Shojo","Seinen","Chibi","90s Retro"],o),new A.aji(l)),l.eO("Pakaian",l.CW,l.p4,new A.ajj(l))],j),B.ae,B.af,B.b2),B.MF,B.Hb,"Langkah 4: Watak"),B.cS,l.mS(A.iw(A.c([l.eO("Font",l.db,l.p3,new A.ajl(l)),l.eO("Bahasa",l.cx,A.c(["Formal DBP","Santai","Puitis","Informatif"],o),new A.ajm(l)),l.eO("Layout",l.cy,A.c(["Minimalis","Padat","Fokus Watak","Tipografi"],o),new A.ajn(l)),l.eO("Viral",l.dx,A.c(["Kontras Tinggi","Hook Headline","Trending","Bold"],o),new A.ajo(l)),l.eO("Sasaran",l.y,A.c(["Semua Pelajar","Guru","Ibu Bapa","Kanak-kanak","Awam"],o),new A.ajp(l))],j),B.ae,B.af,B.b2),B.tU,B.Hq,"Langkah 5: Tipografi")],j))
 p.push(B.yM)
 j=A.f1(16)
 o=A.asx(A.aF(B.c.aT(76.5),B.bI.C()>>>16&255,B.bI.C()>>>8&255,B.bI.C()&255),1)
@@ -81863,76 +81862,76 @@ eO(a,b,c,d){var s=null,r=A.eO(a,s,s,s,B.Um,s,s),q=A.a_(c).i("a6<1,jE<D>>")
 q=A.a1(new A.a6(c,new A.ais(),q),q.i("ao.E"))
 return new A.c8(B.Gn,A.iw(A.c([r,B.RB,A.aDy(B.HB,!0,q,d,b,t.N)],t.E),B.bA,B.af,B.b2),s)}}
 A.air.prototype={
-$0(){var s=this,r="Poster",q="3D Render",p="Soft Studio Light",o="Bold Display",n="Fokus Watak",m="Kanak-kanak / Bayi",l="Ilustrasi Digital",k="Monokrom",j="Minimalis",i="Earth Tones",h="Modern Sans Serif",g="Style Pejabat",f=s.b
-if(f==="Pixar"){f=s.a
-f.x=r
-f.ch=q
-f.at="Cute 3D Pixar"
-f.ax=p
-f.dy="Vibrant / Bold"
-f.db=o
-f.cy=n
-f.CW="Casual"
-f.z=m}else if(f==="Cyber"){f=s.a
-f.x=r
-f.ch=l
-f.at="Sci-Fi Futuristik"
-f.ax="Neon Glow (Cyberpunk)"
-f.dy=k
-f.db="Cyberpunk Font"
-f.cy=j
-f.CW="OOTD Trend"
-f.z="Pekerja Pejabat / Eksekutif / Korporat"}else if(f==="Cikgu"){f=s.a
-f.x=r
-f.ch="Foto Realistik"
-f.at="Dokumentari & Fakta"
-f.ax=p
-f.dy=i
-f.db=h
-f.cy="Padat"
-f.cx="Formal DBP"
-f.CW=g
-f.z="Guru / Pensyarah / Pendidik"}else if(f==="Ghibli"){f=s.a
-f.x=r
-f.ch=l
-f.at="Kartun"
-f.as="Tiada"
-f.ax="Golden Hour (Senja)"
-f.dy="Pastel Lembut"
-f.db="Handwritten"
-f.CW="Style Kampung"
-f.z=m}else if(f==="Vintage"){f=s.a
-f.x=r
-f.ch="Lukisan Minyak"
-f.at="Retro"
-f.ax="Cinematic Shadow"
-f.dy=i
-f.db="Calligraphy"
-f.CW="Pakaian Tradisional"
-f.z="Warga Emas / Atuk / Nenek"}else if(f==="Corporate"){f=s.a
-f.x="Infografik"
-f.ch="Vektor"
-f.at=j
-f.ax=p
-f.dy=k
-f.db=h
-f.cy="Padat"
-f.CW=g
-f.z="Usahawan / Peniaga / Penjaja"}else if(f==="Epic"){f=s.a
-f.x=r
-f.ch=q
-f.at="Gaya Epik"
-f.ax="Cahaya Tajam (Rim Lighting)"
-f.dy="Luxury Gold & Black"
-f.db=o
-f.cy=n
-f.CW="Pakaian Ikut Pekerjaan"
-f.z="Karakter Fantasi / Legend / Adiwira"}},
+$0(){var s=this,r="Poster",q="3D Render",p="Soft Studio Light",o="Bold Display",n="Fokus Watak",m="Kanak-kanak / Bayi",l="Ilustrasi Digital",k="Monokrom",j="Minimalis",i="Foto Realistik",h="Earth Tones",g="Modern Sans Serif",f="Style Pejabat",e=s.b
+if(e==="Pixar"){e=s.a
+e.x=r
+e.ch=q
+e.at="Cute 3D Pixar"
+e.ax=p
+e.dy="Vibrant / Bold"
+e.db=o
+e.cy=n
+e.CW="Casual"
+e.z=m}else if(e==="Cyber"){e=s.a
+e.x=r
+e.ch=l
+e.at="Sci-Fi Futuristik"
+e.ax="Neon Glow (Cyberpunk)"
+e.dy=k
+e.db="Cyberpunk Font"
+e.cy=j
+e.CW="OOTD Trend"
+e.z="Pekerja Pejabat / Eksekutif / Korporat"}else if(e==="Cikgu"){e=s.a
+e.x=r
+e.ch=i
+e.at="Dokumentari & Fakta"
+e.ax=p
+e.dy=h
+e.db=g
+e.cy="Padat"
+e.cx="Formal DBP"
+e.CW=f
+e.z="Guru / Pensyarah / Pendidik"}else if(e==="Ghibli"){e=s.a
+e.x=r
+e.ch=l
+e.at="Kartun"
+e.as="Tiada"
+e.ax="Golden Hour (Senja)"
+e.dy="Pastel Lembut"
+e.db="Handwritten"
+e.CW="Style Kampung"
+e.z=m}else if(e==="Vintage"){e=s.a
+e.x=r
+e.ch=i
+e.at="Retro"
+e.ax="Cinematic Shadow"
+e.dy=h
+e.db="Calligraphy"
+e.CW="Pakaian Tradisional"
+e.z="Warga Emas / Atuk / Nenek"}else if(e==="Corporate"){e=s.a
+e.x="Infografik"
+e.ch="Vektor"
+e.at=j
+e.ax=p
+e.dy=k
+e.db=g
+e.cy="Padat"
+e.CW=f
+e.z="Usahawan / Peniaga / Penjaja"}else if(e==="Epic"){e=s.a
+e.x=r
+e.ch=q
+e.at="Gaya Epik"
+e.ax="Cahaya Tajam (Rim Lighting)"
+e.dy="Luxury Gold & Black"
+e.db=o
+e.cy=n
+e.CW="Pakaian Ikut Pekerjaan"
+e.z="Karakter Fantasi / Legend / Adiwira"}},
 $S:0}
 A.ait.prototype={
 $0(){var s=this.a,r=this.b
 s.z=s.k4[r.jU(15)]
-s.at=s.ok[r.jU(11)]
+s.at=s.ok[r.jU(13)]
 s.ax=s.p1[r.jU(6)]
 s.dy=s.p2[r.jU(5)]
 s.db=s.p3[r.jU(7)]
@@ -85846,10 +85845,10 @@ B.HJ=new A.eB(B.Hj,64,B.bI,null,null)
 B.au=s([],t.oU)
 B.HL=new A.jU("\ufffc",null,null,null,!0,!0,B.au)
 B.HM=new A.lt(null,null,null,null,null,null,null,null,null,B.jM,B.iv,!1,null,!1,null,null,null,null,null,null,null,null,!1,null,null,null,null,null,null,null,null,null,null,null,!1,null,null)
-B.HN=new A.eC(null,null,null,"3. Persekitaran",null,null,null,null,null,null,"Contoh: Kafe moden di Kuala Lumpur",null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
 B.Hx=new A.bH(984763,"MaterialIcons",!1)
 B.HA=new A.eB(B.Hx,null,null,null,null)
-B.HO=new A.eC(null,null,null,"Tarikh",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,B.HA,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
+B.HN=new A.eC(null,null,null,"Tarikh",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,B.HA,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
+B.HO=new A.eC(null,null,null,"2. Emosi",null,null,null,null,null,null,"Cth: Sedih,gembira,marah,takut",null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
 B.Hv=new A.bH(984363,"MaterialIcons",!1)
 B.HH=new A.eB(B.Hv,null,B.bI,null,null)
 B.HP=new A.eC(null,null,null,"Kunci Lesen",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,B.HH,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
@@ -85861,11 +85860,11 @@ B.HS=new A.eC(null,null,null,"5. Pencahayaan",null,null,null,null,null,null,"Cth
 B.Hu=new A.bH(983582,"MaterialIcons",!1)
 B.HF=new A.eB(B.Hu,null,null,null,null)
 B.HT=new A.eC(null,null,null,"Ucapan / Teks pada Imej",null,null,null,null,null,null,"Teks yang akan ditaip terus pada gambar",null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,B.HF,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
-B.HU=new A.eC(null,null,null,"1. Subjek",null,null,null,null,null,null,"Cth: Seorang wanita Melayu bertudung",null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
-B.HV=new A.eC(null,null,null,"2. Aksi",null,null,null,null,null,null,"Cth: Memegang telefon pintar, gembira",null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
 B.He=new A.bH(58283,"MaterialIcons",!1)
 B.HK=new A.eB(B.He,null,null,null,null)
-B.HW=new A.eC(null,null,null,"Tempat",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,B.HK,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
+B.HU=new A.eC(null,null,null,"Tempat",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,B.HK,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
+B.HV=new A.eC(null,null,null,"3. Persekitaran",null,null,null,null,null,null,"Contoh: Kafe moden di KLCC",null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
+B.HW=new A.eC(null,null,null,"1. Subjek",null,null,null,null,null,null,"Cth: Wanita Melayu bertudung",null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
 B.HX=new A.eC(null,null,null,"4. Gaya",null,null,null,null,null,null,"Cth: sedang menaiki motosikal",null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
 B.HZ=new A.di(0.25,0.5,B.a7)
 B.NK=new A.h(0.05,0)
